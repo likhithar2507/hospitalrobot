@@ -20,15 +20,15 @@ Hospital login test
 Registration tested
     [Documentation]  Registration
     [Tags]  admin
-    input text  name:name   Jhon
+    input text  name:name   Ram
     sleep  1s
-    input text  name:mobnumber  7259504665
+    input text  name:mobnumber  9845778824
     sleep  1s
-    input text  name:age    27
+    input text  name:age    22
     sleep  1s
     input text  name:address    banglore
     sleep  1s
-    input text  name:dob    13-07-1993
+    input text  name:dob    25-07-1998
     sleep  1s
     input text  name:bangalore
     sleep  1s
@@ -58,7 +58,7 @@ Delete Patient test
     [Tags]  admin
     click link  xpath=//html/body/nav/div/div/ul/li[3]/a
     sleep  2s
-    input text  name:mobnumber   7259504665
+    input text  name:mobnumber   9845778824
     click button  xpath=//html/body/div/div/div/form/table/tbody/tr[2]/td[2]/button
     sleep  2s
     click link  xpath=//html/body/nav/div/div/ul/li[4]/a
